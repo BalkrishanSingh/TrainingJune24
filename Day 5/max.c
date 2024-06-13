@@ -25,6 +25,6 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    printf("%d", max(arr, n));
+    printf("maximum grades is %d", max(arr, n));
     return 0;
 }
