@@ -16,10 +16,11 @@ int max(int arr[], int size)
 int main()
 {
     printf("Balkrishan 2302492\n");
-    int arr[100];
+
     int n;
     printf("Enter no of student : ");
     scanf("%d", &n);
+    int arr[n];
     printf("Enter grades : ");
     for (int i = 0; i < n; i++)
     {
